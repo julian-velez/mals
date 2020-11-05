@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>landing page</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="images/logo.png"></a>
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">jugos</a></li>
+                <li><a href="#">contacto</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>julian velez </br><span>Gaitan</span></h2>
+                <p>Frontend Developer</p>
+                <a href="#">sobre mi</a>   
+        </div>
+        <div class="imgbox">
+            <img src="images/img1.png" class="starbucks">
+            <ul class="thumb">
+            </div>
+ </div> 
+ <ul class="thumb">
+    <li><img src="images/thumb1.png" onclick="imgslider('images/img1.png')"></li>
+    <li><img src="images/thumb2.png" onclick="imgslider('images/img2.png')"></li>
+    <li><img src="images/thumb3.png" onclick="imgslider('images/img3.png')"></li>
+    </ul>    
+        </div> 
+       
+            <ul class="sci">
+                <li><a href="#"><img src="images/facebook.png"></a></li>
+                <li><a href="#"><img src="images/twitter.png"></a></li>
+                <li><a href="#"><img src="images/instagram.png"></a></li>
+            </ul>
+    </section>
+    <script type="text/javascript">
+    function imgslider(anything){
+        document.querySelector('.starbucks').src =anything;
+
+    }
+
+   
+    </script>
+
+    
+</body>
+</html>
